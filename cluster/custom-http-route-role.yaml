@@ -4,7 +4,7 @@ metadata:
   name: app-and-http-route-manager
 rules:
 - apiGroups: ["networking.x-k8s.io"]
-  resources: ["HTTPRoute"]
+  resources: ["httproutes"]
   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
 - apiGroups: [""]
   resources: ["services","pods"]
