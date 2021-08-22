@@ -10,5 +10,5 @@
    namespace: config-management-system
  roleRef:
    kind: ClusterRole
-   name: admin
+   name: app-and-http-route-manager
    apiGroup: rbac.authorization.k8s.io
