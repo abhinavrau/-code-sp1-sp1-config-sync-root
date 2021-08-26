@@ -13,5 +13,5 @@ spec:
         from: All
       selector:
         matchLabels:
-          selected: "yes"
+          gateway: external-http
       kind: HTTPRoute
