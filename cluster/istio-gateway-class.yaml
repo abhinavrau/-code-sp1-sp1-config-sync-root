@@ -1,0 +1,6 @@
+apiVersion: networking.k8s.io/v1alpha3
+kind: GatewayClass
+metadata:
+  name: istio
+spec:
+  controller: istio.io/gateway-controller
