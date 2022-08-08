@@ -9,7 +9,7 @@ spec:
     hostname: "*"
     port: 80
     protocol: HTTP
-    routes:
+    allowedRoutes:
       namespaces:
         from: All
       selector:
