@@ -12,7 +12,3 @@ spec:
     allowedRoutes:
       namespaces:
         from: All
-      selector:
-        matchLabels:
-          gateway: external-http
-      kind: HTTPRoute
