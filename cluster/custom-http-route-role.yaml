@@ -3,7 +3,7 @@ kind: ClusterRole
 metadata:
   name: app-and-http-route-manager
 rules:
-- apiGroups: ["networking.x-k8s.io"]
+- apiGroups: ["gateway.networking.k8s.io"]
   resources: ["httproutes"]
   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
 - apiGroups: [""]
