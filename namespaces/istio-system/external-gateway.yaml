@@ -5,7 +5,8 @@ metadata:
 spec:
   gatewayClassName: istio
   listeners:
-  - hostname: "*"
+  - name: default
+    hostname: "*"
     port: 80
     protocol: HTTP
     routes:
